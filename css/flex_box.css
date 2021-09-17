@@ -1,0 +1,8 @@
+.principal{
+    display:flex;
+}
+.cuadro{
+    background-color: blueviolet;
+    width: 20%;
+    height: 200px;
+}

@@ -2,9 +2,9 @@ body{
     background-color: darkgray;
 }
 .galeria{
-    height:calc(500px + 3em);
+    height:calc(500px +3em);
     width: 500px;
-    margin: 1 em auto;
+    margin: 1em auto;
     border: 1px solid black;
     position:relative;
 }

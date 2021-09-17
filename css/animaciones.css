@@ -1,0 +1,45 @@
+#insignia{
+    color:chartreuse;
+}
+#flecha{
+    color:cornflowerblue;
+    animation-name: flecha;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+    animation-delay: 4s;
+    position:absolute;
+    left: 250px;
+}
+@keyframes flecha {
+    from{color:cornflowerblue; top: 50px;
+    }to {color:crimson; top: 250px;
+    }
+}
+.cuadros{
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+#uno, #tres{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0px;
+    animation-name: mover;
+    animation-duration: 5s;
+}
+@keyframes mover{
+    25%{top: 200px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{top: 20px;}
+}
+#dos, #cuatro{
+    position: relative;
+    animation-name: mover, flecha;
+    animation-duration: 5, 6s;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: 0s,5s;
+}
