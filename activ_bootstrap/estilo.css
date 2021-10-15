@@ -1,0 +1,83 @@
+*{
+    position:relative;
+    margin-left: 10px ;
+    margin-right: 10px;
+    
+}
+
+    
+
+.oradores{
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;  
+}
+.logo {
+    width: 100px;
+    height: 57px;
+  }
+nav {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #353a40;
+    height: 80px !important;
+    font-size: 14px !important;
+  }
+.comprar {
+    color: rgba(47, 255, 75, 0.514) !important;
+  }
+
+
+nav img {
+    width: 100px;
+}
+#laconferencia{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.carousel  {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: left;
+
+}
+
+.card-img {
+    height: 550px;
+
+}
+#form{
+    display:flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+#form button{
+    
+    background-color: #96C93E !important;
+    border-style: none !important;
+}
+
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+  }
+.gris {
+    background-color: #353a40;
+    color: white;
+  }
+.text {
+    font-size: 12px;
+}
+
+footer { 
+    background-color:#1C5170;
+    
+    color: white !important;
+    text-align: center;
+    padding-top: 10px;
+}
